@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Mwitu</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main container">
+        <div class="landingpage">
+            <p class="mwitu" text-white text-bold text-center><b>Pizza Mwitu</b></p>
+        </div>
+        <div class="menu">
+            <h3 class="menu text-center">Start Your Order</h3>
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top one" src="image/pizza c.jpeg">
+                    </div>
+                    <div class="overlay1">
+                        <h5 class="text-bold">Pizza Margherita</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top" src="image/pizza b.jpg">
+                    </div>
+                    <div class="overlay">
+                        <h5 class="text-bold">Pizza Mexican Wave</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top" src="image/pizza k.jpg">
+                    </div>
+                    <div class="overlay">
+                        <h5 class="text-bold">Pizza Neapolitan</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top" src="image/pizza z.jpg">
+                    </div>
+                    <div class="overlay">
+                        <h5 class="text-bold">Pizza Extravaganza</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="order row">
+            <div class="col-md-6">
+                <h3 style="color: blue;"> Enter Your Order Details By <br>
+                    Filling In The Form </h3>
+                <form action="" id="pizzainfo">
+                    <label style="background-color: lightgreen;"  for="">Choose your pizza size</label>
+                    <select class="form-control" name="size" id="size">
+                        <option value="1200">Large (Mlima) @ ksh 1100</option>
+                        <option value="900">Medium (Size Yake) @ ksh 900</option>
+                        <option value="600">Small (Kapienga) @ ksh 600</option>
+                    </select>
+                    <label style="background-color: lightgreen;"  for="">Choose your desired crust type</label>
+                    <select class="form-control" name="" id="crust">
+                        <option value="230" name="crust">stuffed crust @ ksh200
+                        <option value="250" name="crust">Crispy @ ksh 250
+                        <option value="300" name="crust">Glutten free @ ksh 300
+                    </select>
+                    <label style="background-color: lightgreen;" for="">Choose your Desired toppings</label> <br>
+                    <input value="150" type="checkbox" id="toppingone">Mushrooms @ Ksh 150
+                    <input value="170" type="checkbox" id="toppingone">Sausage @ Ksh 170
+                    <input value="120" type="checkbox" id="toppingone">Onions @ Ksh 120<br>
+                    <input value="150" type="checkbox" id="toppingone">Tikka Sauce @ Ksh 150
+                    <input value="150" type="checkbox" id="toppingone">Mozarella Cheese @ Ksh 150<br>
+                    <label for=""><b>Input Quantity</b></label>
+                    <input class="form-control form-group" type="text" id="numberofpizza">
+                    <button style="background-color: gray;" name="button" type="submit" id="submit" value="Check-Out"
+                        onclick="calctotalPrice()">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <div id="formlocation">
+                    <h3 style="color: blue;"> For Delivery Services,Enter Your Location Details Below</h3>
+                    <form id="delivery">
+                        <label style="background-color: lightgreen;" for="name">Name</label>
+                        <input class="form-control" type="text" name="" id="name" required="required">
+                        <label style="background-color: lightgreen;"  for="location">Location</label>
+                        <input class="form-control" type="text" id="location" placeholder="location...">
+                        <label style="background-color: lightgreen;"  for="phonenumber">Phone Number</label>
+                        <input class="form-control" type="tel" placeholder="01xxxxxxxx" id="number"> <br>
+                        <button style="background-color: gray;" type="submit" name="button" id="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer row">
+            <div class="col-md-6 Get in touch">
+                <h4>Get in touch</h4>
+                <p><i class="fa fa-map-marker fa-2x">&nbsp;Prestige Mall,first floor</i></p>
+                <p><i class="fa fa-phone">&nbsp;0711188954</i></p>
+                <p><i class="fa fa-email">&nbsp;info@pizzamwitu.com</i></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
