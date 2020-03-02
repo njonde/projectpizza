@@ -4,11 +4,11 @@
     height: 600px;
 }
 .mwitu{
-    padding-top: 10px;
+    padding-top: 10px, 10px, 10px, 0;
     font-family: 'Courgette', cursive;
     font-size: 80px;
     text-align: center;
-    margin-top: 100;
+    margin-top: 20px;
     background-color: darkgrey;
 
 }

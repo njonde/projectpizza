@@ -11,7 +11,6 @@ This is a site of a company that sells Pizza depending on size and toppings chos
 *HTML
 *CSS
 *Javascript
-git
 ### License
 MIT License
 
