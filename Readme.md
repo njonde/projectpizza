@@ -5,12 +5,12 @@
 #Live Link
 https://njonde.github.io/Delani-Studio/
 ## Description
-This is a site of a company that show case the project done by individuals programmer and can host their work by posting their projects and its also a studio of invension.
+This is a site of a company that sells Pizza depending on size and toppings chosen. It also gives the user the price for the quantity bought and address where they'll be delivered.
 
 ## Technologies Used
 *HTML
 *CSS
-*Jquery
+*Javascript
 
 ### License
 MIT License
